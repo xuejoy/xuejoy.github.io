@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - xuexue&#39;s blog</title>
-        <link>https://xuejoy.github.io/posts/</link>
+        <link>https://xxx.github.io/posts/</link>
         <description>所有文章 | xuexue&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>xuexuehan_101@163.com (xuejoy)</managingEditor>
-            <webMaster>xuexuehan_101@163.com (xuejoy)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 26 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xuejoy.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>xuexuehan_101@163.com (xuejoy)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 26 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://xxx.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>搭建Hugo博客并部署到Github</title>
-    <link>https://xuejoy.github.io/theme-loveit/</link>
+    <link>https://xxx.github.io/theme-loveit/</link>
     <pubDate>Fri, 26 Mar 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://xuejoy.github.io/theme-loveit/</guid>
+    <guid>https://xxx.github.io/theme-loveit/</guid>
     <description><![CDATA[<p>利用Hugo框架搭建个人博客</p>]]></description>
 </item></channel>
 </rss>
