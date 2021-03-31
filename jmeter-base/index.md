@@ -1,7 +1,7 @@
 # Jmeter入门教程
 
 
-Jmeter安装与使用。
+Jmeter安装与使用
 
 <!--more-->
 
