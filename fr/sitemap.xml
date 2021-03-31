@@ -2,64 +2,64 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://xxx.github.io/fr/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://xuejoy.github.io/fr/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://xxx.github.io/en/categories/"
+                        href="https://xuejoy.github.io/en/categories/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://xxx.github.io/categories/"
+                        href="https://xuejoy.github.io/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://xxx.github.io/fr/categories/"
+                    href="https://xuejoy.github.io/fr/categories/"
                     /></url><url>
-            <loc>https://xxx.github.io/fr/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://xuejoy.github.io/fr/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://xxx.github.io/tags/content/"
+                        href="https://xuejoy.github.io/tags/content/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://xxx.github.io/fr/tags/content/"
+                    href="https://xuejoy.github.io/fr/tags/content/"
                     /></url><url>
-            <loc>https://xxx.github.io/fr/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://xuejoy.github.io/fr/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://xxx.github.io/en/categories/documentation/"
+                        href="https://xuejoy.github.io/en/categories/documentation/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://xxx.github.io/categories/documentation/"
+                        href="https://xuejoy.github.io/categories/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://xxx.github.io/fr/categories/documentation/"
+                    href="https://xuejoy.github.io/fr/categories/documentation/"
                     /></url><url>
-            <loc>https://xxx.github.io/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://xuejoy.github.io/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://xxx.github.io/en/tags/"
+                        href="https://xuejoy.github.io/en/tags/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://xxx.github.io/tags/"
+                        href="https://xuejoy.github.io/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://xxx.github.io/fr/tags/"
+                    href="https://xuejoy.github.io/fr/tags/"
                     /></url><url>
-            <loc>https://xxx.github.io/fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://xuejoy.github.io/fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://xxx.github.io/en/"
+                        href="https://xuejoy.github.io/en/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://xxx.github.io/"
+                        href="https://xuejoy.github.io/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="fr"
-                    href="https://xxx.github.io/fr/"
+                    href="https://xuejoy.github.io/fr/"
                     /></url></urlset>
