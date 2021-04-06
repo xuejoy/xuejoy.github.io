@@ -13,7 +13,7 @@ The Apache JMeter™ application is open source software, a 100% pure Java appli
 
 登录[Jmeter官网](https://jmeter.apache.org/download_jmeter.cgi)下载，windows选择.zip格式下载，Linux选择.tgz格式下载。
 
-![](https://i.loli.net/2021/03/31/QiOavI7HALb6Ud1.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jmeter-download.png"/>
 
 在安装之前，首先要确保电脑已经安装了jdk1.8及以上，然后将下载的压缩包解压，然后在电脑选个路径放进去。在`\apache-jmeter-5.4.1\bin`目录下，找到`jmeter.bat`，双击就能以界面的形式启动并打开jmeter。
 
@@ -31,7 +31,7 @@ The Apache JMeter™ application is open source software, a 100% pure Java appli
 
 {{< /admonition >}}
 
-![](https://i.loli.net/2021/03/31/iAaveyhYHk6N5G9.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/test-plan.png"/>
 
 {{< admonition type=example title="第二步" open=true >}}
 了解测试计划基本概念后，我们来看下线程组里的几个概念：
@@ -43,7 +43,7 @@ The Apache JMeter™ application is open source software, a 100% pure Java appli
 
 {{< /admonition >}}
 
-![](https://i.loli.net/2021/03/31/e7sZgBFXCKINOYU.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/thread-group.png"/>
 
 {{< admonition type=example title="第三步" open=true >}}
 接下来就是重点，构建脚本，刚刚也提到，取样器其实就是我们要测的对象。以[百度](https://www.baidu.com/)为例：
@@ -52,7 +52,7 @@ The Apache JMeter™ application is open source software, a 100% pure Java appli
 
 {{< /admonition >}}
 
-![](https://i.loli.net/2021/03/31/mcFd3UhWMVw9o1j.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jmeter-httprequest.png"/>
 
 {{< admonition type=example title="第四步" open=true >}}
 
@@ -66,7 +66,7 @@ The Apache JMeter™ application is open source software, a 100% pure Java appli
 
 {{< /admonition >}}
 
-![](https://i.loli.net/2021/03/31/zpIhlMvZtr72XnE.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jmeter-execute.png"/>
 
 {{< admonition type=example title="第六步" open=true >}}
 
@@ -87,6 +87,6 @@ The Apache JMeter™ application is open source software, a 100% pure Java appli
 
 {{< /admonition >}}
 
-![](https://i.loli.net/2021/03/31/KX7gLa5dtJv9z3W.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jmeter-report.png"/>
 
 以上:point_up_2:

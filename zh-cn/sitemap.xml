@@ -2,75 +2,75 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://xuejoy.github.io/theme-loveit/</loc><lastmod>2021-03-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/categories/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://xxx.github.io/theme-loveit/</loc><lastmod>2021-03-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/categories/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://xuejoy.github.io/en/categories/"
+                        href="https://xxx.github.io/en/categories/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://xuejoy.github.io/fr/categories/"
+                        href="https://xxx.github.io/fr/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://xuejoy.github.io/categories/"
+                    href="https://xxx.github.io/categories/"
                     /></url><url>
-            <loc>https://xuejoy.github.io/tags/jmeter/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/jmeter-param/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/posts/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/tags/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://xxx.github.io/tags/jmeter/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/jmeter-param/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/posts/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/tags/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://xuejoy.github.io/en/tags/"
+                        href="https://xxx.github.io/en/tags/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://xuejoy.github.io/fr/tags/"
+                        href="https://xxx.github.io/fr/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://xuejoy.github.io/tags/"
+                    href="https://xxx.github.io/tags/"
                     /></url><url>
-            <loc>https://xuejoy.github.io/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://xxx.github.io/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://xuejoy.github.io/en/"
+                        href="https://xxx.github.io/en/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://xuejoy.github.io/fr/"
+                        href="https://xxx.github.io/fr/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://xuejoy.github.io/"
+                    href="https://xxx.github.io/"
                     /></url><url>
-            <loc>https://xuejoy.github.io/tags/%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/categories/%E6%B5%8B%E8%AF%95/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/jmeter-base/</loc><lastmod>2021-03-28T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/tags/hugo/</loc><lastmod>2021-03-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc><lastmod>2021-03-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xuejoy.github.io/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://xxx.github.io/tags/%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/categories/%E6%B5%8B%E8%AF%95/</loc><lastmod>2021-03-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/jmeter-base/</loc><lastmod>2021-03-28T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/tags/hugo/</loc><lastmod>2021-03-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc><lastmod>2021-03-26T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://xxx.github.io/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://xuejoy.github.io/fr/tags/content/"
+                        href="https://xxx.github.io/fr/tags/content/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://xuejoy.github.io/tags/content/"
+                    href="https://xxx.github.io/tags/content/"
                     /></url><url>
-            <loc>https://xuejoy.github.io/tags/installation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://xuejoy.github.io/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://xxx.github.io/tags/installation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://xxx.github.io/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://xuejoy.github.io/en/categories/documentation/"
+                        href="https://xxx.github.io/en/categories/documentation/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://xuejoy.github.io/fr/categories/documentation/"
+                        href="https://xxx.github.io/fr/categories/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://xuejoy.github.io/categories/documentation/"
+                    href="https://xxx.github.io/categories/documentation/"
                     /></url><url>
-            <loc>https://xuejoy.github.io/tags/configuration/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://xxx.github.io/tags/configuration/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

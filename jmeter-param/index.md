@@ -19,7 +19,7 @@ Jmeter自定义变量、命令行执行脚本
 
 {{< /admonition >}}
 
-![](https://i.loli.net/2021/04/01/aCeoREhyd8luUzg.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jmeter-csv.png"/>
 
 {{< admonition type=example title="第二步" open=true >}}
 
@@ -27,15 +27,15 @@ Jmeter自定义变量、命令行执行脚本
 
 {{< /admonition >}}
 
-![](https://i.loli.net/2021/04/01/PV3z8UkfAMWFJeS.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/config-csv.png"/>
 
 {{< admonition type=example title="第三步" open=true >}}
 
-在[百度](https://www.baidu.com/)接口中引用CSV配置文件中自定义的变量，和之前参数值写死不同的是，这次我们在`Value`值这里写成引用自定义变量的格式即`${变量名}`（${search}）。
+在[百度](https://www.baidu.com/)接口中引用CSV配置文件中自定义的变量，和之前参数值写死不同的是，这次我们在`Value`值这里写成引用自定义变量的格式即`${变量名}`${search}。
 
 {{< /admonition >}}
 
-![](https://i.loli.net/2021/04/01/URqnvrCE5QMJVho.png)
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/def-param.png"/>
 
 现在我们就可以点击运行按钮进行执行压测了。可以在察看结果树这里看每个http请求详情，验证我们自定义参数的值是否传入http请求中。
 
@@ -60,6 +60,8 @@ Jmeter自定义变量、命令行执行脚本
 # 进入到jmeter目录下的bin文件夹下，执行以下命令
 jmeter.bat -Jparam ${search} -n -t D:\Dev\apache-jmeter-5.4.1\plan\百度.jmx -l D:\Dev\apache-jmeter-5.4.1\plan\Result.jtl -e -o D:\Dev\apache-jmeter-5.4.1\plan\Report
 ```
+
+{{< /admonition >}}
 
 当然，我们可以把命令封装成sh脚本，最后直接执行sh脚本即可。
 
