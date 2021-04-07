@@ -41,7 +41,7 @@ Jmeter自定义变量、命令行执行脚本
 
 ### 命令行执行jmeter脚本
 
-如果是要在服务器上执行jmeter脚本，那就得用命令行的形式，使用命令行的方式执行脚本，会生成两个文件：XXX.jtl（执行脚本过程中的监听结果，需要在windows的GUI界面打开察看）和XXX文件夹（存放的是之执行脚本后的测试报告）。
+如果是要在服务器上执行jmeter脚本，那就得用命令行的形式，使用命令行的方式执行脚本，会生成两个文件：XXX.jtl（执行脚本过程中的监听结果，需要在windows的GUI界面打开察看）和XXX文件夹（存放的是执行脚本后的测试报告）。
 
 {{< admonition type=info  title="命令参数" open=true >}}
 
@@ -54,15 +54,23 @@ Jmeter自定义变量、命令行执行脚本
 - -e，--reportatendofloadtests：generate report dashboard after load test；
 - -o，--reportoutputfolder：生成html格式测试报告的文件夹；
 
-下来以我们这个测试[百度](https://www.baidu.com/)接口的脚本为例，试用命令行运行脚本，命令行如下：
-
-```bash
-# 进入到jmeter目录下的bin文件夹下，执行以下命令
-jmeter.bat -Jparam ${search} -n -t D:\Dev\apache-jmeter-5.4.1\plan\百度.jmx -l D:\Dev\apache-jmeter-5.4.1\plan\Result.jtl -e -o D:\Dev\apache-jmeter-5.4.1\plan\Report
-```
-
 {{< /admonition >}}
 
-当然，我们可以把命令封装成sh脚本，最后直接执行sh脚本即可。
+jmeter的脚本建议用**命令行**来执行（降低GUI模式带来的性能损耗)。做性能测试的时候，有时候可能需要不停的去设置“线程组”那个界面的参数（例如线程数、循环次数、持续时间等），而每次修改参数后再运行感觉有点麻烦，JMeter提供了方法可以**动态修改属性**，在命令行中使用`-J` 来指定JMeter Properties，脚本里面使用`__P()` 函数来获取命令中指定的属性值。
+
+下来以我们这个测试[百度](https://www.baidu.com/)接口的脚本为例，脚本参数的设置如下：
+
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/dym-param.png"/>
+
+试用命令行运行脚本，命令行如下：
+
+```bash
+# 进入到jmeter目录下的bin文件夹下，执行以下命令，注意文件存放路径
+jmeter -n -t ..\plan\百度.jmx -Jconcurrent_number=10 -Jduration=60 -l ..\plan\Result.jtl -e -o ..\plan\Report
+```
+
+当然，我们可以把命令封装成sh脚本，最后直接执行sh脚本并传参即可。
 
 以上:point_up_2:
+
+
