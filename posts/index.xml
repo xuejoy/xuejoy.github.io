@@ -4,7 +4,14 @@
         <link>https://example.com/posts/</link>
         <description>所有文章 | xuexue&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>xuexuehan_101@163.com (xuejoy)</managingEditor>
-            <webMaster>xuexuehan_101@163.com (xuejoy)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 29 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>xuexuehan_101@163.com (xuejoy)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>JMeter Jenkins自动化集成</title>
+    <link>https://example.com/jmeter-jenkins/</link>
+    <pubDate>Tue, 30 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://example.com/jmeter-jenkins/</guid>
+    <description><![CDATA[<p>根据官方文档一步步实操在Jenkins下使用JMeter。</p>]]></description>
+</item><item>
     <title>Jmeter自定义变量及命令行执行脚本</title>
     <link>https://example.com/jmeter-param/</link>
     <pubDate>Mon, 29 Mar 2021 00:00:00 &#43;0000</pubDate>

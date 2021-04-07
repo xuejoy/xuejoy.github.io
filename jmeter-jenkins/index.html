@@ -5,37 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Jmeter自定义变量及命令行执行脚本 - xuexue&#39;s blog</title><meta name="Description" content="压力测试，性能测试，自动化接口测试，jmeter自定义变量，命令行执行脚本"><meta property="og:title" content="Jmeter自定义变量及命令行执行脚本" />
-<meta property="og:description" content="压力测试，性能测试，自动化接口测试，jmeter自定义变量，命令行执行脚本" />
+        <title>JMeter Jenkins自动化集成 - xuexue&#39;s blog</title><meta name="Description" content="JMeter Jenkins自动化集成"><meta property="og:title" content="JMeter Jenkins自动化集成" />
+<meta property="og:description" content="JMeter Jenkins自动化集成" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://example.com/jmeter-param/" />
+<meta property="og:url" content="https://example.com/jmeter-jenkins/" />
 <meta property="og:image" content="https://example.com/logo.png"/>
-<meta property="article:published_time" content="2021-03-29T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-03-29T00:00:00+00:00" />
+<meta property="article:published_time" content="2021-03-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-30T00:00:00+00:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://example.com/logo.png"/>
 
-<meta name="twitter:title" content="Jmeter自定义变量及命令行执行脚本"/>
-<meta name="twitter:description" content="压力测试，性能测试，自动化接口测试，jmeter自定义变量，命令行执行脚本"/>
+<meta name="twitter:title" content="JMeter Jenkins自动化集成"/>
+<meta name="twitter:description" content="JMeter Jenkins自动化集成"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://example.com/jmeter-param/" /><link rel="prev" href="https://example.com/jmeter-base/" /><link rel="next" href="https://example.com/jmeter-jenkins/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://example.com/jmeter-jenkins/" /><link rel="prev" href="https://example.com/jmeter-param/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Jmeter自定义变量及命令行执行脚本",
+        "headline": "JMeter Jenkins自动化集成",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/example.com\/jmeter-param\/"
+            "@id": "https:\/\/example.com\/jmeter-jenkins\/"
         },"image": [{
                             "@type": "ImageObject",
                             "url": "https:\/\/example.com\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "Jmeter, 压力测试","wordcount":  1203 ,
-        "url": "https:\/\/example.com\/jmeter-param\/","datePublished": "2021-03-29T00:00:00+00:00","dateModified": "2021-03-29T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                        }],"genre": "posts","keywords": "Jmeter, Jenkins, 自动化测试","wordcount":  445 ,
+        "url": "https:\/\/example.com\/jmeter-jenkins\/","datePublished": "2021-03-30T00:00:00+00:00","dateModified": "2021-03-30T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -45,7 +45,7 @@
                 }},"author": {
                 "@type": "Person",
                 "name": "xuejoy"
-            },"description": "压力测试，性能测试，自动化接口测试，jmeter自定义变量，命令行执行脚本"
+            },"description": "JMeter Jenkins自动化集成"
     }
     </script></head>
     <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -57,7 +57,7 @@
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
-                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/jmeter-param/" selected>简体中文</option></select>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/jmeter-jenkins/" selected>简体中文</option></select>
                     </a><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
@@ -104,7 +104,7 @@
                 </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw"></i>
             </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/jmeter-param/" selected>简体中文</option></select>
+                    <select class="language-select" onchange="location = this.value;"><option value="/jmeter-jenkins/" selected>简体中文</option></select>
                 </a></div>
     </div>
 </header>
@@ -118,10 +118,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">Jmeter自定义变量及命令行执行脚本</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">JMeter Jenkins自动化集成</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>xuejoy</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%B5%8B%E8%AF%95/"><i class="far fa-folder fa-fw"></i>测试</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-03-29">2021-03-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1203 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/jmeter-param/" class="leancloud_visitors" data-flag-title="Jmeter自定义变量及命令行执行脚本">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-03-30">2021-03-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 445 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/jmeter-jenkins/" class="leancloud_visitors" data-flag-title="JMeter Jenkins自动化集成">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -133,106 +133,84 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#jmeter参数化">jmeter参数化</a></li>
-        <li><a href="#命令行执行jmeter脚本">命令行执行jmeter脚本</a></li>
+        <li><a href="#在jenkins上安装性能插件">在Jenkins上安装性能插件</a></li>
+        <li><a href="#jmeter配置">JMeter配置</a></li>
+        <li><a href="#用jmeter创建测试脚本">用jmeter创建测试脚本</a></li>
+        <li><a href="#jmeter集成到jenkins">JMeter集成到Jenkins</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p>Jmeter自定义变量、命令行执行脚本</p>
-<p>在上一篇文章 <a href="https://xuexuehan.top/jmeter-base/" target="_blank" rel="noopener noreffer">Jmeter入门教程</a>中介绍了Jmeter的安装及简单用法。本文主要介绍jmeter的自定义变量和使用命令行执行脚本。</p>
-<h3 id="jmeter参数化">jmeter参数化</h3>
-<p>上一篇中，当http请求带有参数的时候，我们就直接在脚本中写死，但有时候我们需要给参数传不同的值来模拟用户请求，这时，就需要将<strong>脚本与数据</strong>分开。也就是说，我们将参数的取值封装在一个数据文件中，然后脚本去读取这个文件中参数的取值，再传递给http请求去调用。</p>
-<p>本文我们还是以<a href="https://www.baidu.com/" target="_blank" rel="noopener noreffer">百度</a>接口为例，在上篇的例子上进行修改。</p>
-<div class="details admonition example open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ol fa-fw"></i>第一步<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">新建CSV Data Set Config，再编写数据文件（csv或txt），里面写参数的具体取值。</div>
-        </div>
-    </div>
-<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jmeter-csv.png"/>
-<div class="details admonition example open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ol fa-fw"></i>第二步<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">在CSV Data Set Config中引用刚编好的数据文件，注意引用路径最好是相对路径，并定义变量名为<code>search</code>。</div>
-        </div>
-    </div>
-<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/config-csv.png"/>
-<div class="details admonition example open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ol fa-fw"></i>第三步<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">在<a href="https://www.baidu.com/" target="_blank" rel="noopener noreffer">百度</a>接口中引用CSV配置文件中自定义的变量，和之前参数值写死不同的是，这次我们在<code>Value</code>值这里写成引用自定义变量的格式即<code>${变量名}</code>${search}。</div>
-        </div>
-    </div>
-<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/def-param.png"/>
-<p>现在我们就可以点击运行按钮进行执行压测了。可以在察看结果树这里看每个http请求详情，验证我们自定义参数的值是否传入http请求中。</p>
-<h3 id="命令行执行jmeter脚本">命令行执行jmeter脚本</h3>
-<p>如果是要在服务器上执行jmeter脚本，那就得用命令行的形式，使用命令行的方式执行脚本，会生成两个文件：XXX.jtl（执行脚本过程中的监听结果，需要在windows的GUI界面打开察看）和XXX文件夹（存放的是执行脚本后的测试报告）。</p>
-<div class="details admonition info open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-info-circle fa-fw"></i>命令参数<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>接下来简单介绍使用命令行执行jmeter脚本的常用参数：</p>
+            </div><div class="content" id="content"><p>根据官方文档一步步实操在Jenkins下使用JMeter。</p>
+<p>本文按照<a href="https://www.jenkins.io/doc/book/using/using-jmeter-with-jenkins/" target="_blank" rel="noopener noreffer">官方文档</a>，实操如何在Jenkins下使用JMeter。</p>
+<p>There are big advantages to use JMeter and Jenkins together. Continuous Integration and Test Automation become standards on the DevOps world, but the performance levels and system complexity are increasing day by day.</p>
+<p>Some of the main benefits of using JMeter with Jenkins are:</p>
 <ul>
-<li>-t，&ndash;testfile：jmeter脚本存放的路径；</li>
-<li>-l，&ndash;logfile：生成jtl格式的测试报告；</li>
-<li>-n，&ndash;nongui：非界面形式运行脚本；</li>
-<li>-J，&ndash;jmeterproperty <argument>=<value>：自定义参数及取值；</li>
-<li>-e，&ndash;reportatendofloadtests：generate report dashboard after load test；</li>
-<li>-o，&ndash;reportoutputfolder：生成html格式测试报告的文件夹；</li>
+<li>Unattended test execution for each system</li>
+<li>Logs of build failures and recovery steps</li>
+<li>Secure and easy access to test reports of each build</li>
+<li>Automate routine work</li>
 </ul>
-</div>
-        </div>
-    </div>
-<p>jmeter的脚本建议用<strong>命令行</strong>来执行（降低GUI模式带来的性能损耗)。做性能测试的时候，有时候可能需要不停的去设置“线程组”那个界面的参数（例如线程数、循环次数、持续时间等），而每次修改参数后再运行感觉有点麻烦，JMeter提供了方法可以<strong>动态修改属性</strong>，在命令行中使用<code>-J</code> 来指定JMeter Properties，脚本里面使用<code>__P()</code> 函数来获取命令中指定的属性值。</p>
-<p>下来以我们这个测试<a href="https://www.baidu.com/" target="_blank" rel="noopener noreffer">百度</a>接口的脚本为例，脚本参数的设置如下：</p>
-<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/dym-param.png"/>
-<p>试用命令行运行脚本，命令行如下：</p>
+<p>当然，在集成之前，我们首先要确保电脑成功安装了JMeter和Jenkins。</p>
+<h3 id="在jenkins上安装性能插件">在Jenkins上安装性能插件</h3>
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jenkins-plugin.png"/>
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jmeter-plugin.png"/>
+<h3 id="jmeter配置">JMeter配置</h3>
+<p>打开你jmeter目录下的<code>\bin\user.properties</code>文件，然后在文件最后一行加入命令<code>jmeter.save.saveservice.output_format=xml</code>，并保存。该命令将帮助我们将JMeter输出集成到Jenkins中。</p>
+<h3 id="用jmeter创建测试脚本">用jmeter创建测试脚本</h3>
+<p>创建完脚本，然后在终端运行以下命令：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 进入到jmeter目录下的bin文件夹下，执行以下命令，注意文件存放路径</span>
-jmeter -n -t ..<span class="se">\p</span>lan<span class="se">\百</span>度.jmx -Jconcurrent_number<span class="o">=</span><span class="m">10</span> -Jduration<span class="o">=</span><span class="m">60</span> -l ..<span class="se">\p</span>lan<span class="se">\R</span>esult.jtl -e -o ..<span class="se">\p</span>lan<span class="se">\R</span>eport
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#注意文件路径</span>
+<span class="nb">set</span> <span class="nv">OUT</span><span class="o">=</span>jmeter.save.saveservice.output_format
+<span class="nb">set</span> <span class="nv">JMX</span><span class="o">=</span>jmeter-test.jmx
+<span class="nb">set</span> <span class="nv">JTL</span><span class="o">=</span>jmeter-test.jtl
+D:<span class="se">\D</span>ev<span class="se">\a</span>pache-jmeter-5.4.1<span class="se">\b</span>in<span class="se">\j</span>meter -j %OUT%<span class="o">=</span>xml -n -t %JMX% -l %JTL%
 </code></pre></td></tr></table>
 </div>
-</div><p>当然，我们可以把命令封装成sh脚本，最后直接执行sh脚本并传参即可。</p>
+</div><p>运行完后，根据你自己指定的路径下会出现两个文件：</p>
+<ul>
+<li><code>jmeter.save.saveservice.output_format=xml</code></li>
+<li><code>jmeter-test.jtl</code></li>
+</ul>
+<h3 id="jmeter集成到jenkins">JMeter集成到Jenkins</h3>
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jenkins-build.png"/>
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jenkins-buildnow.png"/>
+<img src="https://cdn.jsdelivr.net/gh/xuejoy/picture-host/img/jenkins-success.png"/>
+<p>到此，我们就成功把jemetr集成到jenkins上了。</p>
 <p>以上👆</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2021-03-29</span>
+                <span>更新于 2021-03-30</span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/jmeter-param/index.md" target="_blank">阅读原始文档</a>
+                            <a class="link-to-markdown" href="/jmeter-jenkins/index.md" target="_blank">阅读原始文档</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://example.com/jmeter-param/" data-title="Jmeter自定义变量及命令行执行脚本" data-hashtags="Jmeter,压力测试"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://example.com/jmeter-param/" data-hashtag="Jmeter"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://example.com/jmeter-param/" data-title="Jmeter自定义变量及命令行执行脚本"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://example.com/jmeter-param/" data-title="Jmeter自定义变量及命令行执行脚本"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://example.com/jmeter-param/" data-title="Jmeter自定义变量及命令行执行脚本"><i class="fab fa-weibo fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://example.com/jmeter-jenkins/" data-title="JMeter Jenkins自动化集成" data-hashtags="Jmeter,Jenkins,自动化测试"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://example.com/jmeter-jenkins/" data-hashtag="Jmeter"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://example.com/jmeter-jenkins/" data-title="JMeter Jenkins自动化集成"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://example.com/jmeter-jenkins/" data-title="JMeter Jenkins自动化集成"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://example.com/jmeter-jenkins/" data-title="JMeter Jenkins自动化集成"><i class="fab fa-weibo fa-fw"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/jmeter/">Jmeter</a>,&nbsp;<a href="/tags/%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/">压力测试</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/jmeter/">Jmeter</a>,&nbsp;<a href="/tags/jenkins/">Jenkins</a>,&nbsp;<a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/">自动化测试</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/jmeter-base/" class="prev" rel="prev" title="Jmeter入门教程"><i class="fas fa-angle-left fa-fw"></i>Jmeter入门教程</a>
-            <a href="/jmeter-jenkins/" class="next" rel="next" title="JMeter Jenkins自动化集成">JMeter Jenkins自动化集成<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/jmeter-param/" class="prev" rel="prev" title="Jmeter自定义变量及命令行执行脚本"><i class="fas fa-angle-left fa-fw"></i>Jmeter自定义变量及命令行执行脚本</a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
